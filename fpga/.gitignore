@@ -1,0 +1,6 @@
+/qsys/*
+
+!/qsys/synthesis
+/qsys/synthesis/*
+
+!/qsys/synthesis/*.qip
