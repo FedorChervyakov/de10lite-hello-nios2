@@ -51,7 +51,7 @@ $(QSYS_FILES): $(QSYS_PROJECT).qsys
 MAP_ARGS = --read_settings_files=on --write_settings_files=off \
 		   $(addprefix --source=,$(SRCS))
 
-FIT_ARGS = --part=$(PART) --read_settings_files=on
+FIT_ARGS = --part=$(PART) --read_settings_files=on --write_settings_files=off
 ASM_ARGS =
 STA_ARGS =
 
