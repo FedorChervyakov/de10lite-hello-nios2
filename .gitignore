@@ -4,6 +4,7 @@
 !/quartus/*.qsf
 !/quartus/*.sdc
 !/quartus/Makefile
+!/quartus/*.tcl
 
 !*.qsys
 !*.sopcinfo
