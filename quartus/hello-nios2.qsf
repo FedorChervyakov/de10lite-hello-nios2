@@ -36,6 +36,7 @@
 #
 # -------------------------------------------------------------------------- #
 
+source DE10LitePins.tcl
 
 set_global_assignment -name FAMILY "MAX 10"
 set_global_assignment -name DEVICE 10M50DAF484C7G
