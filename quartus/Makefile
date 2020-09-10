@@ -9,9 +9,9 @@ PART = 10M50DAF484C7G
 
 ###################################################################
 # Setup your sources here
-QSYS_BASE = ../fpga/qsys/synthesis
+QSYS_BASE = ../fpga/qsys
 
-QSYS_FILES = $(addprefix $(QSYS_BASE)/$(QSYS_PROJECT),.qip .vhd)
+QSYS_FILES = $(addprefix $(QSYS_BASE)/synthesis/$(QSYS_PROJECT),.qip .vhd)
 
 SRCS = $(wildcard ../fpga/src/*.vhd) $(QSYS_FILES)
 
